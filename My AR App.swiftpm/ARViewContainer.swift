@@ -88,10 +88,14 @@ extension ARView {
         //let mesh = MeshResource.generateBox(size: 0.3)
         //let material = SimpleMaterial(color:.white, roughness: 0.3, isMetallic: true)
         //let modelEntity = ModelEntity(mesh:mesh, materials:[material])
+       
         let modelEntity = try! ModelEntity.loadModel(named: "A")
         modelEntity.generateCollisionShapes(recursive: true)
         
+        //let chessboard = try! Resources.Chess.self.load_Chess()
         
+        // Add the box anchor to the scene
+        //arView.scene.anchors.append(chessboard)
         let anchorEntity = AnchorEntity(world: position)
         anchorEntity.addChild(modelEntity)
         

@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32A3ABC728396E12004297BF /* chess.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 32A3ABC628396E12004297BF /* chess.rcproject */; };
+		32A3ABC92839EEDE004297BF /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A3ABC82839EEDE004297BF /* ARViewContainer.swift */; };
 		32DFFD4D283938A100A907D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFFD4C283938A100A907D0 /* AppDelegate.swift */; };
 		32DFFD4F283938A100A907D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFFD4E283938A100A907D0 /* ContentView.swift */; };
 		32DFFD53283938A400A907D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DFFD52283938A400A907D0 /* Assets.xcassets */; };
 		32DFFD56283938A400A907D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DFFD55283938A400A907D0 /* Preview Assets.xcassets */; };
-		32DFFD5F283963E500A907D0 /* chess.reality in Resources */ = {isa = PBXBuildFile; fileRef = 32DFFD5E283963E500A907D0 /* chess.reality */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32A3ABC628396E12004297BF /* chess.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = chess.rcproject; path = ../../../../../Downloads/chess.rcproject; sourceTree = "<group>"; };
+		32A3ABC82839EEDE004297BF /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		32DFFD49283938A100A907D0 /* HW3_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DFFD4C283938A100A907D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32DFFD4E283938A100A907D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32DFFD52283938A400A907D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32DFFD55283938A400A907D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		32DFFD5E283963E500A907D0 /* chess.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = chess.reality; path = ../../../../../Downloads/chess.reality; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 				32DFFD4C283938A100A907D0 /* AppDelegate.swift */,
 				32DFFD4E283938A100A907D0 /* ContentView.swift */,
 				32DFFD52283938A400A907D0 /* Assets.xcassets */,
-				32DFFD5E283963E500A907D0 /* chess.reality */,
+				32A3ABC628396E12004297BF /* chess.rcproject */,
 				32DFFD54283938A400A907D0 /* Preview Content */,
+				32A3ABC82839EEDE004297BF /* ARViewContainer.swift */,
 			);
 			path = HW3_demo;
 			sourceTree = "<group>";
@@ -130,7 +133,6 @@
 			files = (
 				32DFFD56283938A400A907D0 /* Preview Assets.xcassets in Resources */,
 				32DFFD53283938A400A907D0 /* Assets.xcassets in Resources */,
-				32DFFD5F283963E500A907D0 /* chess.reality in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A3ABC728396E12004297BF /* chess.rcproject in Sources */,
+				32A3ABC92839EEDE004297BF /* ARViewContainer.swift in Sources */,
 				32DFFD4F283938A100A907D0 /* ContentView.swift in Sources */,
 				32DFFD4D283938A100A907D0 /* AppDelegate.swift in Sources */,
 			);
