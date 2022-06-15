@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3279B2242859E53C00DCB10C /* A.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 3279B2232859E53C00DCB10C /* A.rcproject */; };
 		32C236CF2859A983005535B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C236CE2859A983005535B2 /* AppDelegate.swift */; };
 		32C236D12859A983005535B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C236D02859A983005535B2 /* ContentView.swift */; };
 		32C236D32859A983005535B2 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 32C236D22859A983005535B2 /* Experience.rcproject */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3279B2232859E53C00DCB10C /* A.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = A.rcproject; path = ../../../../../Downloads/A.rcproject; sourceTree = "<group>"; };
 		32C236CB2859A983005535B2 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C236CE2859A983005535B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32C236D02859A983005535B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		32C236CD2859A983005535B2 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				3279B2232859E53C00DCB10C /* A.rcproject */,
 				32C236CE2859A983005535B2 /* AppDelegate.swift */,
 				32C236D02859A983005535B2 /* ContentView.swift */,
 				32C236D22859A983005535B2 /* Experience.rcproject */,
@@ -152,6 +155,7 @@
 				32C236D12859A983005535B2 /* ContentView.swift in Sources */,
 				32C236E32859AFC6005535B2 /* ARUIView.swift in Sources */,
 				32C236DF2859AB79005535B2 /* DataModel.swift in Sources */,
+				3279B2242859E53C00DCB10C /* A.rcproject in Sources */,
 				32C236E12859AEFD005535B2 /* ARDisplayView.swift in Sources */,
 				32C236CF2859A983005535B2 /* AppDelegate.swift in Sources */,
 				32C236D32859A983005535B2 /* Experience.rcproject in Sources */,
