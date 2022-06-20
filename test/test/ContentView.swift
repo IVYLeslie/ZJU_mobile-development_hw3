@@ -7,19 +7,18 @@
 
 import SwiftUI
 import RealityKit
+import CoreLocation
 
 struct ContentView : View {
     @EnvironmentObject var data:DataModel
+    @StateObject var locationViewModel = LocationViewModel()
     var body: some View {
-        HStack{
-            ARUIView()
-            if data.enableAR{
-                ARDisplayView()
-            }
-            else{
-                Spacer()
-            }
+        ZStack{
+            //ARDisplayView()
+            ARUIView().environmentObject(locationViewModel)
+            
         }
+        
     }
 }
 

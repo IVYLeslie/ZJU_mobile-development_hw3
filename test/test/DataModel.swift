@@ -27,19 +27,10 @@ final class DataModel: ObservableObject{
     }
     init (){
         arView = ARView(frame: .zero)
-
-        let ascene=try!AA.loadAscene()
-        arView.scene.anchors.append(ascene)
-        ascene.a.addCollisions(scene: self.scene)
-        //arView.scene.anchors.append(maze)
-        
-//        let location = CLLocationCoordinate2D(latitude: -18.9137, longitude: 47.5361)
-//        let geoAnchor = ARGeoAnchor(name: "hi", coordinate: location, altitude: 1250)
-//        arView.session.add(anchor: geoAnchor)
-//        let realityKitAnchor = AnchorEntity(anchor: geoAnchor)
-//        arView.scene.anchors.append(realityKitAnchor)
-        
-        
+        if (enableAR){
+            let ascene=try!AA.loadAscene()
+            arView.scene.anchors.append(ascene)
+        }
     }
     
     func translateBox(){
